@@ -5,8 +5,5 @@ import (
 )
 
 func main() {
-	var mapUsers = make(map[string]int)
-	mapUsers["Kishan"] = 28
-	mapUsers["Jyoti"] = 21
-	fmt.Println(mapUsers)
+	fmt.Println("This is to check git push")
 }
