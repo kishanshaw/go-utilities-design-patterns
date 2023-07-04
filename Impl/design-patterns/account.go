@@ -20,6 +20,6 @@ func (a *Account) checkAccount(accountId int16) error {
 		return nil
 	} else {
 		fmt.Println("accountId don't match")
-		return fmt.Errorf("account detail is incorrect")
+		return fmt.Errorf("account detail is not correct")
 	}
 }
